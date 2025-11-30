@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/LORLN9/Span-lorln/refs/heads/main/Clogs%20spam
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LORLN9/Span-lorln/refs/heads/main/Clogs%20spam"))()
