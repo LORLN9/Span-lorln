@@ -9,7 +9,7 @@ local playerGui = plr:WaitForChild("PlayerGui")
 local allowedUsers = {
     "Zko2710mm",
     "Cola_bola99", 
-    "ON",
+    "oppoqp74",
     "Spaiderman83628292",
     "M5_1D",
     "batman803228",
