@@ -1,0 +1,32 @@
+local Players = game:GetService("Players")
+
+-- raw (قائمة الأسماء)
+local RawUsers = {
+    "PlayerName1",
+    "PlayerName2",
+    "PlayerName3"
+}
+
+local function IsAllowed(name)
+    for _, v in ipairs(RawUsers) do
+        if v == name then
+            return true
+        end
+    end
+    return false
+end
+
+Players.PlayerAdded:Connect(function(player)
+    if IsAllowed(player.Name) then
+        print("السكربت تفعل لـ:", player.Name)
+
+        -- 🔥 سكربتك هنا
+        -- مثال:
+        -- player.CharacterAdded:Connect(function(char)
+        --     char.Humanoid.WalkSpeed = 30
+        -- end)
+
+    else
+        warn(player.Name .. " غير مسموح له")
+    end
+end)
